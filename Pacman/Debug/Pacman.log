@@ -1,0 +1,38 @@
+﻿  Controller.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(660): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=S2D::Input::Keys,
+              _Alloc=std::allocator<S2D::Input::Keys>
+          ]
+          and
+          [
+              _Ty=S2D::Input::Keys
+          ]
+          and
+          [
+              _Ty=S2D::Input::Keys,
+              _Alloc=std::allocator<S2D::Input::Keys>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(639): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=S2D::Input::Keys
+          ]
+  c:\users\lauren\documents\pacmanvp\pacman\s2d\input.h(108): note: see reference to class template instantiation 'std::vector<S2D::Input::Keys,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=S2D::Input::Keys
+          ]
+c:\users\lauren\documents\pacmanvp\pacman\controller.cpp(51): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\lauren\documents\pacmanvp\pacman\controller.cpp(214): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lauren\documents\pacmanvp\pacman\controller.cpp(216): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\lauren\documents\pacmanvp\pacman\controller.cpp(217): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\lauren\documents\pacmanvp\pacman\controller.cpp(227): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lauren\documents\pacmanvp\pacman\controller.cpp(241): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lauren\documents\pacmanvp\pacman\controller.cpp(252): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lauren\documents\pacmanvp\pacman\controller.cpp(266): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lauren\documents\pacmanvp\pacman\controller.cpp(295): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\lauren\documents\pacmanvp\pacman\controller.cpp(296): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\lauren\documents\pacmanvp\pacman\controller.cpp(334): warning C4553: '==': operator has no effect; did you intend '='?
+  Pacman.vcxproj -> C:\Users\Lauren\Documents\PacmanVp\Debug\Pacman.exe
